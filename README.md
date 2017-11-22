@@ -38,6 +38,9 @@ I.e. the run times are 3s, 10s, 22s, and 40s for files with 10000,
 20000, 30000, and 40000 lines, respectively. For all of the
 unproblematic configurations, the run time is always about 1s.
 
+Full timing stats for all configurations in results-with-profiling.txt
+and results-without-profiling.txt.
+
 How the results were computed
 -----------------------------
 

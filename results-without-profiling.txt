@@ -1,0 +1,120 @@
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-10000.txt  1.04s user 0.09s system 102% cpu 1.108 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-20000.txt  1.09s user 0.08s system 102% cpu 1.143 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-30000.txt  1.06s user 0.09s system 101% cpu 1.135 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-40000.txt  1.09s user 0.07s system 101% cpu 1.147 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.05s user 0.09s system 102% cpu 1.121 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.04s user 0.08s system 102% cpu 1.097 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.08s user 0.06s system 101% cpu 1.120 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.06s user 0.09s system 101% cpu 1.127 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.07s user 0.07s system 101% cpu 1.118 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.06s user 0.08s system 101% cpu 1.130 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.09s user 0.08s system 101% cpu 1.152 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.12s user 0.05s system 101% cpu 1.158 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-10000.txt  1.10s user 0.04s system 101% cpu 1.131 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-20000.txt  1.09s user 0.08s system 101% cpu 1.157 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-30000.txt  1.07s user 0.06s system 100% cpu 1.123 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-40000.txt  1.07s user 0.07s system 100% cpu 1.131 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.12s user 0.05s system 101% cpu 1.153 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.05s user 0.06s system 100% cpu 1.103 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.06s user 0.07s system 100% cpu 1.114 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.05s user 0.08s system 101% cpu 1.124 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   3.38s user 0.08s system 100% cpu 3.456 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   10.41s user 0.16s system 100% cpu 10.555 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   22.48s user 0.16s system 100% cpu 22.637 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   39.84s user 0.30s system 100% cpu 40.121 total
+

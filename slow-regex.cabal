@@ -1,0 +1,25 @@
+name:                slow-regex
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/ntc2/slow-regex#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Nathan Collins <conathan@galois.com>
+maintainer:          conathan@galois.com
+copyright:           2017 Nathan Collins <conathan@galois.com>
+category:            None
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable slow-regex
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , regex == 1.0.0.0
+                     , regex-base == 0.93.2
+                     , regex-tdfa == 1.2.2
+                     , regex-tdfa-text == 1.0.0.3
+                     , text == 1.2.2.2

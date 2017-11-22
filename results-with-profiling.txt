@@ -1,0 +1,148 @@
+regex-1.0.0.0: unregistering (flags changed from [] to ["--enable-library-profiling"])
+regex-1.0.0.0: configure
+regex-1.0.0.0: build
+regex-1.0.0.0: copy/register
+slow-regex-0.1.0.0: configure (exe)
+Configuring slow-regex-0.1.0.0...
+slow-regex-0.1.0.0: build (exe)
+Preprocessing executable 'slow-regex' for slow-regex-0.1.0.0...
+[1 of 1] Compiling Main             ( src/Main.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/slow-regex/slow-regex-tmp/Main.p_o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/slow-regex/slow-regex ...
+slow-regex-0.1.0.0: copy/register
+Installing executable(s) in
+/home/conathan/brittle/semmc.git/slow-regex/.stack-work/install/x86_64-linux/lts-9.14/8.0.2/bin
+Completed 2 action(s).
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-10000.txt  1.08s user 0.08s system 101% cpu 1.139 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-20000.txt  1.12s user 0.07s system 101% cpu 1.170 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-30000.txt  1.27s user 0.10s system 101% cpu 1.354 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex string defs-40000.txt  1.23s user 0.07s system 101% cpu 1.290 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.07s user 0.08s system 101% cpu 1.131 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.11s user 0.08s system 101% cpu 1.171 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.14s user 0.06s system 101% cpu 1.185 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-strict   1.14s user 0.10s system 101% cpu 1.219 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.11s user 0.08s system 102% cpu 1.172 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.18s user 0.08s system 101% cpu 1.238 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.25s user 0.08s system 101% cpu 1.304 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.0.2.yaml slow-regex text-lazy   1.30s user 0.08s system 101% cpu 1.353 total
+
+regex-1.0.0.0: unregistering (flags changed from [] to ["--enable-library-profiling"])
+regex-1.0.0.0: configure
+regex-1.0.0.0: build
+regex-1.0.0.0: copy/register
+slow-regex-0.1.0.0: configure (exe)
+Configuring slow-regex-0.1.0.0...
+slow-regex-0.1.0.0: build (exe)
+Preprocessing executable 'slow-regex' for slow-regex-0.1.0.0..
+Building executable 'slow-regex' for slow-regex-0.1.0.0..
+[1 of 1] Compiling Main             ( src/Main.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.0.2/build/slow-regex/slow-regex-tmp/Main.p_o )
+Linking .stack-work/dist/x86_64-linux/Cabal-2.0.0.2/build/slow-regex/slow-regex ...
+slow-regex-0.1.0.0: copy/register
+Installing executable slow-regex in /home/conathan/brittle/semmc.git/slow-regex/.stack-work/install/x86_64-linux/nightly-2017-11-22/8.2.1/bin
+Completed 2 action(s).
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-10000.txt  1.09s user 0.07s system 100% cpu 1.149 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-20000.txt  1.12s user 0.08s system 101% cpu 1.179 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-30000.txt  1.10s user 0.10s system 100% cpu 1.190 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex string defs-40000.txt  1.18s user 0.09s system 100% cpu 1.253 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.08s user 0.07s system 100% cpu 1.142 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.06s user 0.10s system 100% cpu 1.146 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.14s user 0.06s system 100% cpu 1.185 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-strict   1.19s user 0.08s system 100% cpu 1.259 total
+
+File: defs-10000.txt
+Lines: 10000
+Defs: 10000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   1.08s user 0.08s system 100% cpu 1.149 total
+
+File: defs-20000.txt
+Lines: 20000
+Defs: 20000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   1.16s user 0.05s system 100% cpu 1.203 total
+
+File: defs-30000.txt
+Lines: 30000
+Defs: 30000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   1.18s user 0.07s system 100% cpu 1.243 total
+
+File: defs-40000.txt
+Lines: 40000
+Defs: 40000
+stack exec --stack-yaml stack-ghc-8.2.1.yaml slow-regex text-lazy   1.20s user 0.09s system 100% cpu 1.275 total
+

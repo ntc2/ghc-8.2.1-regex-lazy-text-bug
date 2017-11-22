@@ -1,5 +1,5 @@
-Regression in Text.RE.TDFA + Text.Lazy in GHC 8.2.1
-===================================================
+Regression in Text.RE.TDFA + Data.Text.Lazy in GHC 8.2.1
+========================================================
 
 In GHC 8.2.1, I observe apparently exponential time in the length of
 the file when matching a simple regex using `Text.Regex.TDFA` and

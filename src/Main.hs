@@ -1,7 +1,5 @@
-{-# LANGUAGE AllowAmbiguousTypes #-}
 {-# LANGUAGE FlexibleContexts #-}
 module Main where
-
 
 -- Problem only happens using Data.Text.Lazy, and only *without*
 -- profiling. Heisenbug!

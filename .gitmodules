@@ -1,0 +1,3 @@
+[submodule "submodules/hashable.git"]
+	path = submodules/hashable.git
+	url = git@github.com:ntc2/hashable.git

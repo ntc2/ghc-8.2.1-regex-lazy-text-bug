@@ -1,12 +1,14 @@
-Regression in Text.RE.TDFA + Data.Text.Lazy in GHC 8.2.1
+Regression in Text.RE.TDFA + Data.Text.Lazy in GHC 8.2.*
 ========================================================
 
-In GHC 8.2.1, I observe apparently exponential time in the length of
+In GHC 8.2.{0,1,2}, I observe apparently exponential time in the length of
 the file when matching a simple regex using `Text.Regex.TDFA` and
 `Data.Text.Lazy`. And this is a Heisenbug, in that the performance
 problem goes away if I build with profiling support! The problem is
 not present in GHC 8.0.2, or when using `String` or strict
 `Data.Text`.
+
+I reported this bug against GHC [here](https://ghc.haskell.org/trac/ghc/ticket/14519).
 
 Timing stats for buggy configuration
 ------------------------------------

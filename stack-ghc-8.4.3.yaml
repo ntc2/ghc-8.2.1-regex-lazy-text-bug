@@ -1,0 +1,7 @@
+packages:
+- .
+extra-deps:
+- regex-1.0.1.3
+
+allow-newer: true
+resolver: lts-12.2
